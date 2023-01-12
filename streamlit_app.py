@@ -50,7 +50,7 @@ def execute(input_field):
 st.header("Prompt-Improver")
 st.markdown("##")
 st.markdown(
-    "**Example prompt:** \n\n I want to set a random number which is not 0 in a list to a different number. If the list contains only 0s than I want to do nothing:\n\n[0 0 0 0 0 1 2 0 0 1 2 0 0 0 0 0 0 1 2 0 0 5 6 0]\n\nWhats the best way of doing this?"
+    "**Example prompt:** \n\n I want to set a random number which is not 0 in a list to a different number. If the list contains only 0s then I want to do nothing:\n\n[0 0 0 0 0 1 2 0 0 1 2 0 0 0 0 0 0 1 2 0 0 5 6 0]\n\nWhats the best way of doing this?"
 )
 st.markdown("##")
 
