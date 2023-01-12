@@ -3,12 +3,12 @@ import openai
 #import hidden
 
 #openai.api_key = hidden.key
-openai.api_key = KEY
+openai.api_key = st.secrets["KEY"]
 import betterprompt
 import os
 
 #os.environ["OPENAI_API_KEY"] = hidden.key
-os.environ["OPENAI_API_KEY"] = KEY
+os.environ["OPENAI_API_KEY"] = st.secrets["KEY"]
 
 
 def generate(prompt, num_prompts):
