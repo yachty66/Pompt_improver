@@ -1,5 +1,6 @@
 import os
 import openai
+import streamlit as st
 #import hidden
 
 #openai.api_key = hidden.key
@@ -45,7 +46,6 @@ def execute(input_field):
 
 
 ############################################################################################################################################################################
-import streamlit as st
 
 st.header("Prompt-Improver")
 st.markdown("##")
